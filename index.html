@@ -115,8 +115,7 @@
                 const description = this.shadowRoot.querySelector('#description');
                 const icon = this.shadowRoot.querySelector('#icon');
 
-                location.textContent = ${data.name}, ${data.sys.country};
-                temperature.textContent = ${Math.round(data.main.temp)}°C;
+               
                 description.textContent = data.weather[0].description;
 
                 
